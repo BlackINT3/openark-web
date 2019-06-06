@@ -1,0 +1,86 @@
+
+.top-bar {
+    text-align: left;
+    padding: 5px 0;
+    background-color: #242525;
+    font-size: 14px;
+    height: 40px;
+}
+
+.top-bar h1 {
+    font-size: inherit;
+    display: inline-block;
+    line-height: 0;
+    margin: 0
+}
+
+.top-bar a {
+    color: #efeae1
+}
+
+.top-bar a:hover {
+    color: #2fbaea;
+    text-decoration: none
+}
+
+.top-bar a.is-selected {
+    color: #a29f99
+}
+
+.top-bar .navigation {
+    display: inline-block
+}
+
+.top-bar .top-bar-right {
+    float: right;
+    line-height: 33px;
+    margin-right: 30px    
+}
+
+.top-bar .minibutton {
+    margin: 4px 0
+}
+
+.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0
+}
+
+.navigation li {
+    display: inline-block;
+    padding-right: 5px;
+    height: 33px;
+    vertical-align: top
+}
+
+.navigation li:last-child {
+    padding-right: 0
+}
+
+.navigation a {
+    padding: 5px;
+    display: inline-block;
+    transition: color 0.2s;
+    -o-transform: color 0.2s;
+    -moz-transform: color 0.2s;
+    -webkit-transition: color 0.2s
+}
+
+.navigation a:hover {
+    text-decoration: none
+}
+
+.wrapper {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.wrapper {
+    width: auto;
+    margin: 0 auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    overflow: hidden;
+}
+
