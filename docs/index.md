@@ -2,8 +2,8 @@
 
 ![](preview.png)
 
-Website: [http://openark.blackint3.com/](http://openark.blackint3.com/)
+Website: [https://openark.blackint3.com/](https://openark.blackint3.com/)
  
 Source: [https://github.com/BlackINT3/OpenArk/](https://github.com/BlackINT3/OpenArk/)
 
-Manuals: [http://openark.blackint3.com/manuals](http://openark.blackint3.com/manuals)
+Manuals: [https://openark.blackint3.com/manuals/](https://openark.blackint3.com/manuals/)
