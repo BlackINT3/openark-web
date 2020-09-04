@@ -1617,11 +1617,11 @@ h3.title_en {
 	border: 1px solid #fff;
 	margin-right: 0;
 	color: #fff;
-	background: url(../images/banner/icon_ship_normal.png) no-repeat 20px center;
+	background: no-repeat 20px center;
 }
 .banner-wrap .text_box div a.vieo_tech:hover {
 	color: #fff;
-	background: url(../images/banner/icon_ship_normal.png) no-repeat 20px center;
+	background: no-repeat 20px center;
 }
 .banner-wrap {
 	height: 800px;
@@ -1756,17 +1756,17 @@ h3.title_en {
 .banner-wrap .text_box div a.vieo_tech {
 	border: 1px solid #fff;
 	color: #fff;
-	background: url(../images/banner/icon_ship_normal.png) no-repeat 16px center;
+	background: no-repeat 16px center;
 }
 .banner-wrap .text_box div a.vieo_tech:hover {
 	border: 1px solid #fff;
 	color: #fff;
-	background: url(../images/banner/icon_ship_normal.png) no-repeat 16px center;
+	background: no-repeat 16px center;
 }
 .banner-wrap .text_box div a.vieo_tech:active {
 	border: 1px solid #fff;
 	color: #fff;
-	background: url(../images/banner/icon_ship_normal.png) no-repeat 16px center;
+	background: no-repeat 16px center;
 }
 
 .banner-wrap .text_box .hh {
@@ -1904,7 +1904,7 @@ p.group_oriented {
 .banner-wrap .text_box div a.vieo_tech {
 	border: 1px solid #fff;
 	color: #fff;
-	background: url(../images/banner/icon_ship_normal.png) no-repeat 16px center;
+	background: no-repeat 16px center;
 	line-height: 37px;
 }
 
