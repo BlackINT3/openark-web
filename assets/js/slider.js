@@ -33,10 +33,8 @@
         this.$aNav = this.$carousel.siblings('#bannerNav').find('ul li');
     };
 
-    var outerWidth = parseInt(document.body.offsetWidth);
-    var middleWidth = 1920;
-    var _height = outerWidth >= middleWidth ? 940 : 603;
-    var _slideHeight = outerWidth >= middleWidth ? 400 : 600;
+    var _height = 603;
+    var _slideHeight = 600;
 
     Carousel.prototype = {
         play: function() {
