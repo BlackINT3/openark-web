@@ -1,0 +1,74 @@
+
+body,html {
+	height:100%
+}
+div,li,ul {
+	padding:0;
+	margin:0
+}
+img {
+	vertical-align:top;
+	border:0
+}
+li,ul {
+	list-style:none;
+	text-transform:capitalize
+}
+#banner {
+	margin-bottom:-10px
+}
+#carousel {
+	position:relative;
+	z-index:2;
+	transform-style:preserve-3d;
+	perspective:800px
+}
+#carousel img {
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-left:-500px;
+	transition:transform .5s ease-in-out;
+	box-shadow:8px 8px 20px rgba(0,0,0,.2);
+	cursor:pointer
+}
+#bannerNav {
+	position:relative;
+	margin-top:20px;
+	height:10px;
+	padding:10px 0;
+	text-align:center
+}
+#bannerNav ul li {
+	cursor:pointer;
+	overflow:hidden;
+	display:inline-block;
+	width:22px;
+	margin:0 2px
+}
+#bannerNav ul li a {
+	margin:0 auto;
+	display:block;
+	width:6px;
+	height:6px;
+	vertical-align:top;
+	border-radius:3px;
+	background:#5e6671;
+	font-size:0
+}
+#bannerNav ul li.on a,#bannerNav ul li:hover a {
+	background:#00aeff
+}
+#bannerNav ul li.on a {
+	width:20px
+}
+
+#carousel {
+	height:650px
+}
+#carousel img {
+	width:940px;
+	border-radius: 10px;
+	opacity: 0;
+}
+}

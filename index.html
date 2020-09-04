@@ -13,10 +13,10 @@
     <link type="text/css" charset="utf-8" rel="stylesheet" href="./assets/css/wap.css">
     <link href="./assets/css/navbar.css" rel="stylesheet">
     <link href="./assets/images/favicon.ico" rel="shortcut icon">
+	
+<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 </head>
 
-<body data-spy="scroll" data-target="#header" oncopy="return false">
-<!-- 头部 begin -->
 <header class="header">
     <nav class="top-bar" aria-label="Primary">
 	<div class="wrapper no-pad">
@@ -34,10 +34,9 @@
 <section class="banner_box" data-section="home">
     <div class="banner-wrap">
     	<h2 class=" wow animated fadeInUp animated" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
-    		<div style="margin-top:60px;margin-bottom:120px">
+    		<div style="margin-bottom:40px">
     		<span style="font-size:70px;font-weight:900;color:#04abF1;">OpenArk </span><span style="font-size:32px;color:#ffffff;"></span><p/>
     		<span style="font-size:16px;font-weight:900;color:#ffffff;">OpenArk is a open source toolkit on Windows. Ark is Anti Rootkit abbreviated, it aimmed at reversing/programming helper and also users can find out malwares in the OS. More and more commands will be supported in future.
-
         </span>
     		</div>
     	</h2>
@@ -56,12 +55,27 @@
 </section>
 
 <!-- -->
+
+  <div id="banner">
+	<div id="carousel">
+		<img src="assets/images/preview.png" data-url="#">
+		<img src="assets/images/preview1.png" data-url="#">
+		<img src="assets/images/preview2.png" data-url="#">
+	</div>
+  </div>
+<script src="assets/js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+<script src="assets/js/slider.js" type="text/javascript" charset="utf-8"></script>
+<script>
+	$(function() {
+		$('#carousel').carousel({
+			curDisplay: 0, //默认索引
+			autoPlay: false, //是否自动播放
+			interval: 3000 //间隔时间
+		});
+	});
+</script>
 <section class="why-uesr-mb-container">
-  <div size=1 style="color:#aaaaaa;border-top:1px solid #aaaaaa;width:70%;margin:0 auto;" />  
-  <div class="why-uesr-mb-title why-uesr-mb-title2">Features</div>
-  <br>
-  <img src="assets/images/preview.png" alt="Cross-desktop Apps">
-	<div class="howto-mb-row">
+  <div class="why-uesr-mb-title why-uesr-mb-title2">Features</div>	<div class="howto-mb-row">
 		<div class="howto-mb-col">
 			<div class="howto-mb-strong">Process Manager</div>
 			<small>Process kill/search, enum thread/modules/window and inject...</small>

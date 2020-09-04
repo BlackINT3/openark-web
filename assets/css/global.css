@@ -363,7 +363,7 @@ html {
     flex-wrap: wrap;
     padding: 1px 0 0 9%;
 	margin-top: 0%;
-	margin-bottom: 6%;
+	margin-bottom: 40px;
 }
 .bannerUl li{
 	
@@ -484,7 +484,7 @@ html {
 	bottom: 5%;
 }
 .banner-wrap {
-	height: 693px;
+	height: 500px;
 	position: relative;
 	background-size: cover;
 	width: 1300px;
